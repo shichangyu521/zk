@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ziigeer.project.dao.DetailTimeMapper" >
+  <resultMap id="BaseResultMap" type="com.ziigeer.project.domain.DetailTime" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="start_time" property="startTime" jdbcType="VARCHAR" />
+    <result column="end_time" property="endTime" jdbcType="VARCHAR" />
+    <result column="sequence" property="sequence" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="create_user" property="createUser" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, start_time, end_time, sequence, create_time, create_user
+  </sql>
+  <select id="selectByPrimaryKey" resultType="com.ziigeer.project.domain.MicroLesson" parameterType="java.lang.Long" >
+    select 
+        id, lesson_name 'lessonName'
+    from micro_lesson
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+
+
+
+
+
+</mapper>
