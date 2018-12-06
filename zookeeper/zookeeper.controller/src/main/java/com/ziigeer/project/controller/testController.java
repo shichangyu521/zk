@@ -51,6 +51,7 @@ public class testController {
     @RequestMapping(value = "testApi.do", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public List<DetailTime> testApi(@RequestParam("id") String id) {
+
 //        DetailTime detailTime = ziigeerService.helloWord(Long.valueOf(id));
 //        List<DetailTime> detailTimeList = Arrays.asList(detailTime, detailTime, detailTime, detailTime, detailTime);
 //        return detailTimeList;
