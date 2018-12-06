@@ -45,7 +45,6 @@ public class testController {
 //        DetailTimeDto detailTimeDto = DetailsMap.DETAILSINSTANCE.detailTimeToDetailTimeDto(detailTime);
 //        return detailTimeDto;
 
-
         return null;
     }
 
