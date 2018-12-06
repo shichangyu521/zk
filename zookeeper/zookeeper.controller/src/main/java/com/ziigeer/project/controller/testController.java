@@ -44,6 +44,8 @@ public class testController {
 //        DetailTime detailTime = ziigeerService.helloWord(Long.valueOf(id));
 //        DetailTimeDto detailTimeDto = DetailsMap.DETAILSINSTANCE.detailTimeToDetailTimeDto(detailTime);
 //        return detailTimeDto;
+
+
         return null;
     }
 
