@@ -7,13 +7,13 @@
     <!-- 父模块 -->
     <parent>
         <groupId>com.project</groupId>
-        <artifactId>zookeeper.parent</artifactId>
+        <artifactId>zj.parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../zookeeper.parent/pom.xml</relativePath>
+        <relativePath>../zj.parent/pom.xml</relativePath>
     </parent>
 
     <groupId>com.project</groupId>
-    <artifactId>zookeeper.service</artifactId>
+    <artifactId>zj.service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -30,7 +30,7 @@
 
         <dependency>
             <groupId>com.project</groupId>
-            <artifactId>zookeeper.core</artifactId>
+            <artifactId>zj.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
