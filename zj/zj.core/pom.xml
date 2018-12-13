@@ -7,16 +7,16 @@
     <!-- 父模块 -->
     <parent>
         <groupId>com.project</groupId>
-        <artifactId>zookeeper.parent</artifactId>
+        <artifactId>zj.parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../zookeeper.parent/pom.xml</relativePath>
+        <relativePath>../zj.parent/pom.xml</relativePath>
     </parent>
     <properties>
         <swagger2-version>2.5.0</swagger2-version>
     </properties>
 
     <groupId>com.project</groupId>
-    <artifactId>zookeeper.core</artifactId>
+    <artifactId>zj.core</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
