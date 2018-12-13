@@ -2,15 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.project</groupId>
-  <artifactId>zookeeper</artifactId>
+  <artifactId>zj</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>zookeeper</name>
+  <name>zj</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>zookeeper.parent</module>
-    <module>zookeeper.controller</module>
-    <module>zookeeper.core</module>
-    <module>zookeeper.service</module>
+    <module>zj.parent</module>
+    <module>zj.controller</module>
+    <module>zj.core</module>
+    <module>zj.service</module>
   </modules>
 </project>
