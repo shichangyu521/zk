@@ -13,4 +13,7 @@
     <module>zj.core</module>
     <module>zj.service</module>
   </modules>
+  <build>
+
+  </build>
 </project>
