@@ -18,6 +18,6 @@ RUN rm $WORK_PATH/$SERVER_CONF_FILE_NAME
 #复制文件server.xml
 COPY  ./$SERVER_CONF_FILE_NAME $WORK_PATH/
 #复制war包
-ADD application/zj-web/target/zj-web.war $TOMCAT_HOME/webapps/app.war
+ADD ./zj-web.war $TOMCAT_HOME/webapps/app.war
 
 ENTRYPOINT $TOMCAT_HOME/bin/startup.sh && tail -F $TOMCAT_HOME/logs/catalina.out
