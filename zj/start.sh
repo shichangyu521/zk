@@ -21,7 +21,7 @@ if [ -n $"ImageID" ]; then
     docker rmi ImageID
 fi
 #dockerfile创建镜像
-docker build -t zj-web:1.0.1 /application/zj-web
+docker build -t "$ImageName":1.0.1 /application/zj-web
 
 #创建容器
 echo "Create Container 。。。 ContainerName: $containerName"
