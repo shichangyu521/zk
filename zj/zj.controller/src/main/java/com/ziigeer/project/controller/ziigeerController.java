@@ -41,7 +41,7 @@ public class ziigeerController {
     @RequestMapping(value = "index.do", method = RequestMethod.GET, produces = "application/json")
     public ModelAndView test(@RequestParam("id") String id, HttpServletRequest request) {
         MicroLesson microLesson = ziigeerService.helloWord(Long.valueOf(id));
-        String jsonObject = "测试成功啦！";
+        String jsonObject = "测试成功啦！555";
         if (microLesson != null) {
             jsonObject = microLesson.getLessonName();
         }
